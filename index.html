@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Buda:300" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='container text-center' id='con'>
+  <div class='glue'>
+    <div id='top'>
+      <div id='t0' class='dbt no'></div>
+      <div id='t1' class='dbt no'></div>
+    </div>
+    <div id='bot'>
+      <div id='t2' class='dbt no'></div>
+      <div id='t3' class='dbt no'></div>
+    </div>
+    <div id='center' class='text-center'>
+      <h1>Simon<span class="small">®</span></h1>
+      <div class='inline'>
+        <div class='inline text-center' id='dp'>
+          <h2 class='text-center'></h2>
+          <h6>COUNT</h6>
+        </div>
+        <div class='inline text-center' id='b1'>
+          <div id='start' class='yes'></div>
+          <h6 class='text-center' id='s'>START</h6>
+        </div>
+        <div class='inline text-center' id='b2'>
+          <div id='strict' class='yes'></div>
+          <h6 class='text-center' id='r'>STRICT</h6>
+        </div>
+        <div class='inline off2' id='led'></div>
+      </div>
+      <div id='bot'>
+        <h6 class='inline up'>ON</h6>
+        <div class='inline off' id='b3'></div>
+        <h6 class='inline up'>OFF</h6>
+      </div>
+    </div>
+  </div>
+</div>
+<audio id='audio0' src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3'></audio>
+<audio id='audio1' src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3'></audio>
+<audio id='audio2' src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3'></audio>
+<audio id='audio3' src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3'></audio>
+<audio id='victory' src="https://vignette2.wikia.nocookie.net/kidicarus/images/0/07/Victory.ogg/revision/latest?cb=20160426045953"></audio>
+<audio id='mistake' src="http://www.orangefreesounds.com/wp-content/uploads/2014/08/Wrong-answer-sound-effect.mp3?_=1"></audio>
+<footer>
+  <p class="caption text-center myText" id="footer">Written and coded by <a href="https://codepen.io/TheR3apr/full/YNNmob/" title="Author's portfolio" target="_blank">Bogdan Stojiljkovic</a></p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+body {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/7f/e2/94/7fe2942eff09ae923f2c80bb0f4f7b51.jpg');
+}
+#con {
+  display: block;
+  margin: 100px auto 100px auto;
+  border-radius: 50%;
+  background-color: dimgray;
+  height: 450px;
+  width: 450px;
+  box-shadow: 0px 0px 12px #333;
+}
+#t0 {
+  background-color: green;
+  border-top-left-radius: 100%;
+}
+#t0:active, #t0.active{
+  background-color: lime;
+}
+#t1 {
+  background-color: red;
+  border-top-right-radius: 100%;
+}
+#t1:active, #t1.active{
+  background-color: #ff2828;
+}
+#t2 {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+}
+#t2:active, #t2.active {
+  background-color: #fbff35;
+}
+#t3 {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+}
+#t3:active, #t3.active {
+  background-color: #35ffff;
+}
+.dbt {
+  border: 1px solid dimgray;
+  display: inline-block;
+  height: 190px;
+  width: 190px;
+  margin: 4px;
+}
+#top {
+  margin-top: 24px;
+}
+.no {
+  pointer-events: none;
+}
+#center {
+  padding-left: -10px;
+  position: absolute;
+  top: 50%;
+  left: 50;
+  margin: -90px 0 0 120px;
+  display: block;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 13px solid dimgray;
+  background-color: white;
+}
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  margin-top: 30px;
+  font-size: 350%;
+  font-style: bold;
+  
+}
+.inline {
+  display: inline-block;
+}
+h2 {
+  font-family: 'Wallpoet', cursive;
+  width: 40px;
+  border: 3px solid dimgray;
+  border-radius: 5px;
+  color: red;
+  background-color: darkred;
+  height: 26px;
+}
+#dp {
+  left: 2px;
+  position: relative;
+  margin-right: 8px;
+}
+h6 {
+  font-family: 'Buda', cursive;
+  font-style: bold;
+  margin: 3px;
+}
+.yes {
+  pointer-events: auto;
+  cursor: pointer;
+}
+#start {
+  border-radius: 100%;
+  border: 3px solid dimgray;
+  background-color: firebrick;
+  margin-bottom: 8px;
+  height: 20px;
+  width: 20px;
+  
+}
+#b1 {
+  position: relative;
+  
+  left: 4px;
+  
+}
+#s {
+  position: relative;
+  right: 7px;
+}
+#r {
+  position: relative;
+  right: 7px;
+}
+#strict {
+  border-radius: 100%;
+  border: 3px solid dimgray;
+  background-color: goldenrod;
+  margin-bottom: 8px;
+  height: 20px;
+  width: 20px;
+  
+}
+#b2 {
+  position: relative;
+  left: 2px;
+}
+#led {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  border: 2px solid dimgray;
+  position: relative;
+  bottom: 20px;
+  margin-left: -15px;
+}
+#bot {
+  margin-top: 4px;
+}
+#b3 {
+  width: 30px;
+  height: 16px;
+  border: 2px solid dimgray;
+}
+.up {
+  position: relative;
+  bottom: 4px;
+}
+.on {
+  background: linear-gradient(90deg, #00FFFF 50%, black 50%);
+}
+.off {
+  background: linear-gradient(90deg, black 50%, #00FFFF 50%); 
+}
+.off2 {
+  background-color: darkred;
+}
+.on2 {
+  background-color: red;
+}
+.yes:active {
+  transform: translate(0px, 0.3px);
+}
